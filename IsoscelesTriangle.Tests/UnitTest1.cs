@@ -8,7 +8,7 @@ public class Tests
     }
 
     [Test]
-    public void ValidIsoscelesTriangle_Input60and60and60_OutputValidIsoscelesTriangle()
+    public void ValidIsoscelesTriangle_Input60and60and90_OutputValidIsoscelesTriangle()
     {
         //Arrange
         int firstAngle = 60;
