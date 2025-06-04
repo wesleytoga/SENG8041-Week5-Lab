@@ -18,7 +18,7 @@ public class Tests
         string expected = "This is a valid Isosceles Triangle";
 
         //Act
-        string actual = IsoscelesTriangle.Services.IsoscelesTriangle.ValidTriangle(firstAngle, secondAngle, thirdAngle);
+        string actual = IsoscelesTriangle.Services.IsoscelesTriangle.ValidIsoscelesTriangle(firstAngle, secondAngle, thirdAngle);
 
         //Assert
         Assert.That(actual, Is.EqualTo(expected));
