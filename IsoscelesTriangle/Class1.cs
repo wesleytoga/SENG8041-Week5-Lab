@@ -7,7 +7,7 @@ public class IsoscelesTriangle
     {
         string result;
 
-        if ((firstAngle == secondAngle) || (firstAngle == thirdAngle) || (secondAngle == thirdAngle))
+        if ((firstAngle == secondAngle && firstAngle != thirdAngle) || (firstAngle == thirdAngle && firstAngle != secondAngle) || (secondAngle == thirdAngle && secondAngle != firstAngle))
         {
             result = "This is a valid Isosceles Triangle";
         }
